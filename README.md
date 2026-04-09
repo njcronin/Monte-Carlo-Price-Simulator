@@ -2,6 +2,8 @@
 
 This project implements a Monte Carlo simulation to model potential price paths for equity securities using historical data.
 
+![Monte Carlo Simulation Output](monte_carlo_plot.png)
+
 ## Methodology
 The simulator uses **Geometric Brownian Motion (GBM)** to project future price distributions. 
 * **Data Source:** Market data is pulled dynamically via the `yfinance` API.
